@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="styles/toggle.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/atf.css">
+  <link rel="stylesheet" href="styles/tool-selection.css">
 </head>
 <body>
   <?php 
@@ -31,6 +32,12 @@
     <div class="atf-text-box">
       <p class="atf-main-text">Minecraft Commands Made Easy</p>
       <p class="atf-subtext">Commandify provides configurators that let you build Minecraft commands in a few clicks, streamlining the command experience for Minecraft veterans and making commands accessible for anyone.</p>
+    </div>
+  </div>
+  <div class="tool-selection-box">
+    <p class="tool-selection-title">Configurators</p>
+    <div class="tool-grid">
+
     </div>
   </div>
 
