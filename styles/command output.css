@@ -1,0 +1,52 @@
+.command-output-container{
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-right:20px;
+  display: flex;
+  flex-direction: row;
+}
+.generate-command-button,
+.copy-command-button{
+  background-color: var(--commandify-background-color-secondary);
+  border: none;
+  color: var(--commandify-text-color);
+  padding: 10px;
+  border-radius: 4px;
+  transition: color 125ms;
+}
+.generate-command-button:hover,
+.copy-command-button:hover{
+  cursor: pointer;
+}
+.generate-command-button:active{
+  color: var(--commandify-color-accent);
+}
+
+.command-output{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: var(--commandify-background-color-secondary);
+  color: var(--commandify-text-color);
+  border: none;
+  flex: 1;
+  margin-left: 10px;
+}
+.command-output:focus{
+  outline: none;
+}
+
+.command-warning-box{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  border-radius: 4px;
+  border: none;
+  margin: 0px 20px;
+  padding: 10px;
+}
+.warning-text{
+  margin: 0px 40px;
+  font-size: 18px;
+  font-weight: 400;
+}

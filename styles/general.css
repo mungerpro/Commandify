@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Monocraft';
+  src: url('../Ckeditor5/Monocraft/Monocraft.otf') format('opentype');
+}
+:root {
+  --commandify-text-color: #FAFAFA;
+  --commandify-color-primary: #684B3E;
+  --commandify-color-accent: #7ECB6B;
+  --commandify-background-color: #242424;
+  --commandify-background-color-secondary: #343434;
+  --commandify-color-secondary: #231A10;
+  --commandify-text-color-secondary: #684B3E;
+  --commandify-homepage-background: url("../Assets/other/dark-background.png");
+  --commandify-atf-background-color: transparent;
+}
+::selection {
+  background-color: var(--commandify-color-accent);
+}
+
+
+body{
+  font-family: Roboto, Arial;
+  padding: 0px 200px 0px 200px;
+  background-color: var(--commandify-background-color);
+  color: var(--commandify-text-color);
+  /*Prevents selection of text*/
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  margin-top: 135px;
+
+  /*background-image: url(../background\ Images/jungle_planks.png);
+  /*background-size: 128px;
+  /*image-rendering: optimizeSpeed;             /* Older versions of FF */
+  /*image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+  /*image-rendering: -webkit-optimize-contrast; /* Safari */
+  /*image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  /*image-rendering: pixelated;                 /* Awesome future-browsers */
+  /*-ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+}
+
+.selectable-text{
+  -webkit-touch-callout: text; /* iOS Safari */
+  -webkit-user-select: text; /* Safari */
+  -moz-user-select: text; /* Firefox */
+  -ms-user-select: text; /* Internet Explorer/Edge */
+  user-select: text; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+/*low res minecraft icons rendered sharply*/
+.minecraft-item{
+  height: 42px;
+  image-rendering: optimizeSpeed;             /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast; /* Safari */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+}
+
+/*removes up and down arrow from number inputs*/
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track{
+  border-radius: 25px;
+  background-color: var(--commandify-color-secondary);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--commandify-color-primary);
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--commandify-text-color);
+}

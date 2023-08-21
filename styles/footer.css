@@ -1,0 +1,72 @@
+.footer{
+  height: 200px;
+  background: rgba(0,0,0,0.6) url("../Assets/background Images/bedrock.png");
+  background-blend-mode: multiply;
+  background-size: 100px;
+  margin: 30px -208px -8px -208px;
+  padding: 0px 400px;
+  background-size: 128px;
+  image-rendering: optimizeSpeed;             /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast; /* Safari */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+  display: flex;
+}
+.left-section,
+.middle-section,
+.right-section{
+  flex: 1;
+  margin: 25px 0px;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: #5a5a5a;
+  margin-right: 80px;
+}.mungerpro-info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #FAFAFA;
+}
+.footer .left-section .mungerpro-info p{
+  padding-bottom: 10px;
+}
+.minecraft-head{
+  image-rendering: optimizeSpeed;             /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast; /* Safari */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+  width: 100px;
+  margin-right: 30px;
+}
+
+.footer-title{
+  font-size: 20px;
+  color: #ADADAD;
+}
+.footer-content{
+  font-size: 15px;
+  color: #FAFAFA;
+}
+.footer p{
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.footer a{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  transition: color 125ms;
+}
+.footer a:hover{
+  color: #ADADAD;
+}

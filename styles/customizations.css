@@ -1,0 +1,198 @@
+.customizations-box{
+  background-color: transparent;
+  flex: 1;
+  border-radius: 10px;
+}
+.main-command-customizations{
+  display: flex;
+  flex-direction: row;
+}
+.customization-title{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-text{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--commandify-color-primary);
+  border-radius: 8px;
+  padding: 0px 20px 20px 20px;
+  margin-bottom: 20px;
+}
+.custom-text-title{
+  color: #FAFAFA;
+}
+
+.custom-item-name-box{
+  flex: 1;
+  max-height: 87px;
+  margin-right: 20px;
+}
+.custom-item-lore-box{
+  flex: 1;
+  margin-right: 20px;
+  max-height: 344px;
+}
+.custom-item-lore-editor-box{
+  margin-right: 10px;
+}
+
+.advanced-options-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advanced-options-button{
+  width: 200px;
+  height: 35px;
+  margin: 20px 0px;
+  background-color: var(--commandify-background-color);
+  color: var(--commandify-text-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.advanced-command-customizations{
+  height: auto;
+}
+.custom-enchantments{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--commandify-color-secondary);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.enchantments-title-line{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.filter-enchantments-input-element{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.enchantment-filter-input{
+  padding: 12px 0px 12px 47px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--commandify-color-secondary);
+  color: var(--commandify-text-color);
+  flex: 1;
+}
+.enchantment-filter-input:focus{
+  outline: none;
+}
+.clear-button{
+  padding: 8px 15px;
+  margin: 0px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: solid 1px;
+  background-color: var(--commandify-color-secondary);
+  justify-content: center;
+  color: var(--commandify-color-primary);
+  cursor: pointer;
+}
+
+.enchantments{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 0px;
+  margin-top: 10px;
+}
+.enchantment-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+}
+.filtered-enchantment{
+  color: var(--commandify-text-color-secondary);
+}
+.filtered-enchantment:hover{
+  color: var(--commandify-text-color);
+}
+.selected-enchantment{
+  color: var(--commandify-color-accent);
+}
+.enchantment-name{
+  flex: 1;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 125ms;
+}
+.enchantment-name:active{
+  color: var(--commandify-color-accent);
+}
+.enchantment-level-input{
+  width: 35px;
+  height: 20px;
+  margin-right: 10px;
+}
+input[type=number] {
+  padding: 0px 5px;
+  background-color: transparent;
+  border: 1px solid var(--commandify-text-color);
+  border-radius: 4px;
+  color: var(--commandify-color-accent);
+}
+
+.description-icon-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-icon{
+  margin-right: 20px;
+  fill: var(--commandify-text-color);
+  cursor: default;
+  transition: color 130ms;
+}
+.description-icon-container:hover .description-icon{
+  color: var(--commandify-color-accent);
+}
+.description-icon-container .tooltip{
+  position: absolute;
+  background-color: var(--commandify-background-color);
+  color: var(--commandify-text-color);
+  padding: 17px 10px 2px 10px;
+  margin-right: 20px;
+  border: solid var(--commandify-color-accent) 1px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: 30px;
+  opacity: 0;
+  transition: opacity 130ms;
+  pointer-events: none;
+  z-index: 100;
+}
+.description-icon-container:hover .tooltip{
+  opacity: 1;
+}
+.tooltip p{
+  margin-top: -5px;
+}
+.tooltip-description{
+  width: 200px;
+  line-height: 150%;
+}
+.tooltip-title{
+  text-align: center;
+}
+
+.hidden{
+  display:none
+}
+
+.custom-item-lore p{
+  color: purple;
+}

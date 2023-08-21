@@ -1,0 +1,10 @@
+.ck.ck-button:hover {
+  cursor: pointer;
+}
+.ck-editor__editable {
+  max-height: 242px;
+  line-height: 0.3;
+}
+.ck-editor{
+  max-width: 500px;
+}

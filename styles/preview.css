@@ -1,0 +1,67 @@
+.options-and-preview{
+  padding-bottom: 20px;
+}
+.options-box{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-box{
+  background-color: var(--commandify-background-color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 500px;
+  flex: 1;
+  position: sticky;
+  top: 135px;
+}
+.preview-text-box{
+  border-radius: 4px;
+  border: 3px solid #220070;
+  background-color: #1E151D;
+  font-family: Monocraft;
+  font-size: 18px;
+  width: 340px;
+  max-width: 340px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.preview-image-container{
+  margin: 20px 0px;
+  padding: 0px 10px;
+}
+.preview-image{
+  height: 200px;
+  image-rendering: optimizeSpeed;             /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast; /* Safari */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;                 /* Awesome future-browsers */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+}
+.preview-description,
+.preview-lore,
+.preview-name{
+  flex: 1;
+  padding: 0px 20px;
+}
+.preview-name{
+  color: #00FFFF;
+  height: 20px;
+}
+.preview-enchantments{
+  color: #ADADAD;
+  line-height: 0.3;
+  padding: 0px 20px;
+}
+.preview-description{
+  color: #DA04DA;
+  line-height: 0.3;
+  margin-top: 25px;
+}
