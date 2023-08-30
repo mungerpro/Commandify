@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="styles/toggle.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/atf.css">
-  <link rel="stylesheet" href="styles/tool-selection.css">
+  <link rel="stylesheet" href="styles/tool selection.css">
 </head>
 <body>
   <?php 
@@ -35,9 +35,26 @@
     </div>
   </div>
   <div class="tool-selection-box">
-    <p class="tool-selection-title">Configurators</p>
+    <p class="tool-selection-title">v &nbsp;&nbsp;&nbsp;Configurators&nbsp;&nbsp;&nbsp; v</p>
     <div class="tool-grid">
-
+      <a href="./Give Items.php">
+        <div class="tool-option">
+          <p class="tool-option-title">Item Generator</p>
+          <p class="tool-option-command">/give @p diamond_sword</p>
+        </div>
+      </a>
+      <a href="./404.php">
+        <div class="tool-option tool-dne">
+          <p class="tool-option-title">Chest Generator?</p>
+          <p class="tool-option-command">/give @p chest {nbt}</p>
+        </div>
+      </a>
+      <a href="./404.php">
+        <div class="tool-option tool-dne">
+          <p class="tool-option-title">Mob Creator?</p>
+          <p class="tool-option-command">/summon creeper ~ ~ ~</p>
+        </div>
+      </a>
     </div>
   </div>
 

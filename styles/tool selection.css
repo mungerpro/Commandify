@@ -3,7 +3,55 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 90px;
 }
 .tool-selection-title{
   font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+.tool-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 40px;
+}
+.tool-grid a{
+  text-decoration: none;
+}
+.tool-option{
+  height: 200px;
+  width: 300px;
+  background-color: var(--commandify-color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  color: #FAFAFA;
+  transition: 125ms;
+}
+.tool-option:hover{
+  background-color: var(--commandify-color-secondary);
+}
+.tool-dne:hover{
+  background-color: rgb(219, 66, 66);
+}
+.tool-dne:hover .tool-option-title,
+.tool-dne:hover .tool-option-command{
+  opacity: 0;
+}
+.tool-option:hover .tool-option-title{
+  color: var(--commandify-text-color);
+}
+.tool-option-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+.tool-option-command{
+  font-family: monocraft;
+  padding: 10px 20px;
+  rotate: -2deg;
+  background-color: rgba(0, 0, 0, 0.5);
 }

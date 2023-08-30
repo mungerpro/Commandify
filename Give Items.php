@@ -105,7 +105,7 @@
   <div class="command-output-warning" id="js-command-output-warning"></div>
   <section class="command-output-container">
     <button onclick="writeCommandOutput();" class="generate-command-button" id="generate-command-button">Generate Command</button>
-    <input type="text" value="command can be copied here" id="js-command-output" class="command-output" autocorrect="off">
+    <input type="text" value="command will show up here" id="js-command-output" class="command-output" autocorrect="off">
   </section>
   <?php
     include_once('views/footer.php');

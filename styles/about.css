@@ -1,0 +1,56 @@
+.about-hero-box{
+  background: url(../Assets/other/dragon_2.png);
+  background-position: 50% 40%;
+  border-radius: 8px;
+  border: none;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.about-hero-title-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FAFAFA;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 0px;
+}
+.about-hero-title{
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  max-width: 800px;
+  margin: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.about-writeup-box{
+  margin: 0px 150px;
+  margin-bottom: 100px;
+}
+.about-writeup-title{
+  font-size: 35px;
+  font-weight: 500;
+  max-width: 1100px;
+  line-height: 1.3;
+}
+.about-writeup-paragraph{
+  font-size: 19px;
+  line-height: 1.3;
+}
+.about-writeup-paragraph a{
+  color: var(--commandify-text-color);
+  transition: 125ms;
+}
+.about-writeup-paragraph a:hover{
+  color: var(--commandify-color-accent);
+}
+.about-writeup-signature{
+  font-family: monocraft;
+  font-size: 30px;
+}

@@ -323,6 +323,7 @@ function writeCommandOutput() {
     htmlOutput += `}`;
   }
 
+  //warn user to use a command block if the command is too long for chat
   document.getElementById('js-command-output')
     .value = htmlOutput;
   if (htmlOutput.length > 256) {
@@ -448,6 +449,12 @@ function copyToClipboard() {
   var copyText = document.getElementById("js-command-output");
   copyText.select();
   navigator.clipboard.writeText(copyText.value);
+
+  const button = document.getElementById("generate-command-button");
+  button.innerHTML = "Copied!";
+  setTimeout(function() {
+    button.innerHTML = "Generate Command";
+  }, 1500);
 }
 /*--------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------*/

@@ -16,6 +16,6 @@
   <div class="right-section">
     <p class="footer-title">Other</p>
     <a href="https://github.com/mungerpro/Commandify" target="_blank" class="footer-content">Github</a>
-    <a href="./You Died.php" class="footer-content">What happens when you die?</a>
+    <a href="./404.php" class="footer-content">What happens when you die?</a>
   </div>
 </footer>

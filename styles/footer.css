@@ -24,7 +24,8 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  background-color: #5a5a5a;
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.6);
   margin-right: 80px;
 }.mungerpro-info{
   flex: 1;

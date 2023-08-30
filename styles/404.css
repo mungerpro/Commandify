@@ -1,0 +1,33 @@
+.fourohfour-main{
+  min-height: calc(100vh - 365px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--commandify-404-image);
+  border-radius: 8px;
+}
+.fourohfour-text{
+  font-size: 80px;
+  font-family: monocraft;
+  color: var(--commandify-color-accent);
+  margin-top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin: 40px;
+}
+.fourohfour-back-button{
+  font-size: 30px;
+  font-family: monocraft;
+  padding: 8px 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FAFAFA;
+  cursor: pointer;
+  transition: color 125ms;
+  border-radius: 4px;
+}
+.fourohfour-back-button:hover{
+  color: var(--commandify-color-accent);
+}
